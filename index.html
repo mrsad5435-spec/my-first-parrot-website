@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beautiful Birds | Premium Parrots for Sale</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <!-- Using a bird icon as logo for now, can be replaced with image -->
+                    <span
+                        style="background: var(--primary-color); color: white; border-radius: 50%; width: 40px; height: 40px; display: flex; align-items: center; justify-content: center; margin-right: 10px;">
+                        <i class="fa-solid fa-dove"></i>
+                    </span>
+                    Beautiful Birds
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#shop">Shop</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-flex">
+            <div class="hero-content">
+                <h1>Welcome to Beautiful Birds</h1>
+                <p>Your number one source for healthy, beautiful Budgies and exotic birds. Hand-tamed and loved.</p>
+                <div style="display: flex; gap: 1rem; margin-top: 2rem;">
+                    <a href="#shop" class="btn">View Our Collection</a>
+                    <a href="#contact" class="btn btn-outline">Contact Us</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://image.pollinations.ai/prompt/high%20quality%20photo%20of%20a%20beautiful%20pair%20of%20Australian%20Budgerigar%20Bajree%20parrots%20sitting%20together?width=800&height=600&nologo=true"
+                    alt="Beautiful Birds Welcome">
+            </div>
+        </div>
+    </section>
+
+    <!-- Shop Section -->
+    <section id="shop" class="shop-section">
+        <div class="container">
+            <h2 class="section-title">Our Beautiful Collection</h2>
+            <div id="product-grid" class="product-grid">
+                <!-- Products will be loaded here by script.js -->
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2>Ready to bring one home?</h2>
+            <p style="margin-bottom: 2rem;">Contact us via WhatsApp to book your order or visit our location.</p>
+            <a href="#" onclick="buyProduct('General Inquiry', '')" class="btn contact-btn">
+                <i class="fa-brands fa-whatsapp"></i> Chat on WhatsApp
+            </a>
+            <p style="margin-top: 2rem; font-size: 0.9rem; opacity: 0.8;">
+                <i class="fa-solid fa-location-dot"></i> Lahore, Pakistan (Delivery Available)
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Beautiful Birds. Built with love for nature.</p>
+        </div>
+    </footer>
+
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+
+</html>
