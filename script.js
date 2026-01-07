@@ -110,7 +110,7 @@ const products = [
 ];
 
 // Configuration
-const CONTACT_PHONE = "+923001234567"; // REPLACE WITH YOUR NUMBER
+const CONTACT_PHONE = "+923131327069"; // REPLACE WITH YOUR NUMBER
 const SHOP_CONTAINER = document.getElementById('product-grid');
 
 // Function to render products
@@ -156,3 +156,4 @@ document.addEventListener('DOMContentLoaded', () => {
     renderProducts();
     console.log("Beautiful Birds Loaded Successfully!");
 });
+
